@@ -23,9 +23,10 @@ dependencies {
     implementation("org.projectlombok:lombok")
     implementation("org.springframework.boot:spring-boot-starter-thymeleaf")
     implementation("org.springframework.boot:spring-boot-starter-web")
+    implementation("mysql:mysql-connector-java:8.0.33")
 //    compileOnly("org.projectlombok:lombok")
     annotationProcessor("org.projectlombok:lombok")
-    runtimeOnly("org.postgresql:postgresql")
+ //   runtimeOnly("org.postgresql:postgresql")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }
